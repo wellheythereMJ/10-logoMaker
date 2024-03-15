@@ -1,4 +1,4 @@
-const {Square, Triangle, Circle} = require('./shapes.js');
+const {Square, Triangle, Circle} = require('./lib/shapes');
 // user inquirer to ask questions
 const inquirer = require('inquirer');
 const fs = require('fs');
@@ -38,13 +38,12 @@ inquirer
       shapeSelection = new Triangle();
     }
     shapeSelection.setShapeColor(shapeColor);
+    shapeSelection.setText(logo);
+    shapeSelection.setTextColor(textColor);
 
-    // set shape color, text, and text color
-// shapeSelection.setShapeColor(shapeColor);
-    // 
-    const filename = `${data.name.toLowerCase().split(' ').join('')}.json`;
+    const filename = `./dist/${shape}.svg`;
 
-    fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) =>
+    fs.writeFile(filename, shapeSelection.rendor(), (err) =>
       err ? console.log(err) : console.log('Success!')
     );
   });
