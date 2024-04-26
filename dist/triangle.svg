@@ -1,1 +1,4 @@
-<svg version="1.1" width="200" height="200" xmlns="http://www.w3.org/2000/svg"> <polygon fill="green" points="100,20 200,170 0,170" /> <text x="50" y="140" font-size="50" text-anchor="middle" fill="blue">BTW</text> </svg>
+<svg version="1.1" width="300" height="300" xmlns="http://www.w3.org/2000/svg" style="padding-top: 20px; padding-left: 20px;"> 
+    <polygon fill="BLACK" points="150,0 300,250 0,250" stroke="black" stroke-width="1" />
+    <text x="50%" y="50%" font-size="60" text-anchor="middle" alignment-baseline="middle" fill="WHITE" style="text-shadow: 3px 3px black;">AW</text> 
+  </svg>
