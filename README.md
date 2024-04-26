@@ -1,6 +1,6 @@
 #logoMaker SVG Logos
 
-Create custom logos effortlessly with this Node.js command-line application. The application prompts users to select colors, shapes, and text for their logo, generating an SVG file.
+Create custom logos effortlessly with this Node.js command-line application, which prompts users to select colors, shapes, and text for their logo, generating an SVG file.
 
 ![Sample Logo Image here](), walkthrough video below 
 
