@@ -6,6 +6,6 @@ View the code repository on GitHub [here](https://github.com/wellheythereMJ/logo
 
 Walkthrough video below 
 <br>
-![logoMaker demo video](./assets/logoMaker%20walkthru.mov)
+
 <br>
 ![Sample Logo Image here](./assets/logoMaker%20screenshot.png)
